@@ -18,7 +18,7 @@ _____________________________
 Если несколько букв имеют одинаковое количество вхождений, то необходимо вернуть ту, которая встречается в слове последней.
 
 ### Пример:
-Задаем в браузере URL: http://localhost:8080/wordanalyzer/analyze?word=test
+Задаем в браузере URL: localhost:8080/wordanalyzer/analyze?word=test
 В ответ получаем 
 {
 "letter" : "t",
@@ -29,7 +29,7 @@ _____________________________
 [Путь к решению задачи](https://github.com/Nutopzhe/WordAnalyzer/tree/master/src/main/java/com/nikolayrybakov/optiontwo)
 
 Для запуска проекта необходимо настроить Tomcat. В "Application context" оставить "/".
-После запуска задаем в браузере URL: http://localhost:8080/wordanalyzer/analyze?word=test - где "word" это параметр, а "test" - значение.
+После запуска задаем в браузере URL: localhost:8080/wordanalyzer/analyze?word=test - где "word" это параметр, а "test" - значение.
 _____________________________
 ### Тестовые данные для проверки программы:
 - test: Буква t встречается 2 раза, а все остальные буквы (e и s) только по одному разу. Поэтому необходимо вернуть "t 2"
